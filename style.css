@@ -1,0 +1,56 @@
+body {
+	background-color: #ccc;
+}
+
+#clock {
+	width: 270px;
+	height: 270px;
+	background-image: url('clock.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	position: relative;
+	margin: 0 auto;
+}
+
+#circle {
+	width: 20px;
+	height: 20px;
+	background-color: #000;
+	border-radius: 50%;
+	position: absolute;
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #4D4D4D;
+}
+
+#hours, #minutes, #seconds {
+	position: absolute;
+	transform-origin: left 50%;
+}
+
+#minutes {
+	left: 50%;
+	top: 52%;
+}
+
+#seconds {
+	top: 52%;
+	left: 50%;
+}
+
+#hours {
+	top: 50%;
+	left: 49.5%;
+}
+
+#date {
+	border: 1px solid black;
+	width: 50px;
+    position: absolute;
+    top: 64%;
+    left: 40%;
+    border-radius: 5px;
+    padding: 2px;
+}
